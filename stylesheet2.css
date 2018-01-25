@@ -1,4 +1,3 @@
-
 body {
   font-family: Open Sans;
   background-color: #f9fafc;
@@ -9,7 +8,6 @@ body {
   flex-direction: column;
   /* border: 2px solid red; */
   /* align-items: flex-start; */
-
 }
 
 .header {
@@ -28,7 +26,7 @@ body {
 a {
   text-decoration: none;
   padding: 5px;
-  color:#69696a;
+  color: #69696a;
 }
 
 .hireus, .scroll {
@@ -47,8 +45,8 @@ a {
 
 .scrollbox {
   /* border: 2px solid red; */
- text-align: center;
- display: block;
+  text-align: center;
+  display: block;
 }
 
 .description {
@@ -58,71 +56,62 @@ a {
   border-left: 1px solid grey;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .navname, .nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
- .scroll, .hireus {
-  padding: 0px 15px 0px 15px;
-}
-.header {
-  margin: 5px;
-  margin-top: 20px;
-}
-
-.nav a {
-  /* padding: 15px; */
-  margin: 10px;
-}
-
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .scroll, .hireus {
+    padding: 5px 15px 5px 15px;
+  }
+  .header {
+    /* margin: 5px; */
+    margin-top: 20px;
+  }
+  .nav a {
+    /* padding: 15px; */
+    margin: 10px;
+  }
   .circles {
-  position: relative;
-  width: 40%;
-  height: 300px;
-}
-
-.circle1 {
-  height: 250px;
-  width: 250px;
-  background-color: rgba(247, 136, 167, 0.6);
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 25px;
-}
-
-.circle2 {
-  height: 150px;
-  width: 150px;
-  background-color: rgba(247,193,162,0.7);
-  border-radius: 50%;
-  position: absolute;
-  margin-left:175px;
-  margin-top: 150px;
-}
-
-.circle3 {
-  height: 100px;
-  width: 100px;
-  background-color: rgba(207,130,213,0.6);
-  border-radius: 50%;
-  position: absolute;
-  margin-left: 200px;
-  margin-top: 75px;
-}
-
-.info {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
-}
-
-.hireus, .scroll {
-  display: inline;
-}
-
-.writing {
-  width: 60%;
-}
+    position: relative;
+    width: 35%;
+    height: 300px;
+  }
+  .circle1 {
+    height: 250px;
+    width: 250px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 25px;
+  }
+  .circle2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 150px;
+  }
+  .circle3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 75px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .hireus, .scroll {
+    display: inline;
+  }
+  .writing {
+    width: 65%;
+  }
